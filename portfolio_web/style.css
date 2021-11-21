@@ -89,6 +89,19 @@ h1{
     padding: 60px;
   }
 
+   /*portifolio-videos*/
+
+   #port-videos{
+    text-align: center;
+    list-style: none;
+
+  }
+
+  #port-videos li{
+    display: inline;
+    padding: 40px;
+  }
+
   
 
   
