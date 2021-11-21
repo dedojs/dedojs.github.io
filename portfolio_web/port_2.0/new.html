@@ -8,48 +8,151 @@
     <title>Port 2.0</title>
 </head>
 <body>
-    <nav  id="menu-h">
-        <ul>
-            <li id="home"><a href="#descricao">Home</a></li>
-            <li><a href="#descricao">Descrição</a></li>
-            <li><a href="#especialidade">Área de Especialidades</a></li>
-            <li><a href="#profissional">Histórico Profissional</a></li>
-            <li><a href="#academico">Histórico Acadêmico</a></li>
-            <li><a href="#certificados">Certificados</a></li>
-            <li><a href="#imagens">Imagens</a></li>
-            <li><a href="#videos">Vídeos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-        <div class="checkbox-container">
-            <div class="checkbox">
-                <div class="checkbox-wrapper">
-                    <input type="checkbox" id="toggle">
-                    <Label class="checkbox" for="toggle">
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                    </Label>
-                    <div class="menu"></div>
+    <header>
+        <nav  id="menu-h">
+            <ul>
+                <li> <img src="/arquivos/developer.png" id="logo"> </li>
+                <li><a href="#descricao">Home</a></li>
+                <li><a href="#descricao">Descrição</a></li>
+                <li><a href="#certificados">Curriculo</a>
+                    <ul id="submenu">
+                        <li><a href="#especialidade">Área de Especialidades</a></li>
+                        <li><a href="#profissional">Histórico Profissional</a></li>
+                        <li><a href="#academico">Histórico Acadêmico</a></li>
+                    </ul>
+                </li>    
+                <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#imagens">Imagens</a></li>
+                <li><a href="#videos">Vídeos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="checkbox-container">
+                <div class="checkbox">
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox" id="toggle">
+                        <Label class="checkbox" for="toggle">
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                        </Label>
+                        <div class="menu"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-        <div id="descricao">
-            <!--<img id="foto" src="./img/a1 (2).jpg" alt="Foto de Andre com um lindo sorriso!" width="200px">
-            <div id="desc">
-                <h1>André Luis Sousa</h1>
-                <h2>Front-end developer</h2>
-                <h3>Descrição</h3>
-                <p>Me chamo André, sou <em>brasileiro, moro em Vitória da Conquista, Bahia,</em> tenho 41 anos, sou ciclista amador, aventureiro, e adoro passar o tempo com a família, andar de bike com minhas filhas, assistir filmes, e codar.</p>
-                <p>Há 20 anos trabalho como gerente comercial na Delicatessen Dinani, empresa do segmento de gêneros alimentícios, que funciona como indústria e comércio varejista de produtos de fabricação própria e terceiros. </p>
-                <p>Atualmente, estou cursando o curso de Programação e Desenvolvimento Web Full Stack na Trybe e o curso de Análise e Desenvolvimento 
-                de sistemas na UNIT.</p>
-                <p>Nos últimos meses, tenho me dedicado a aprender programação, feito alguns cursos online, e atualmente estou focado em fazer uma transição de carreira, me tornar Desenvolvedor de Softwares.</p>
-                <p>Sou um novato na aréa de desenvolvimento de softwares, mas sou <strong>focado, determinado e aprendo rápido.</strong></p>
+            <div id="parte1">
+                <img id="foto" src="./img/a1 (2).jpg" alt="Foto de Andre com um lindo sorriso!">
+                <div id="desc">
+                    <h1>André Luis Sousa</h1>
+                    <h2>Front-end developer</h2>
+                    <h3>Descrição</h3>
+                    <p>Me chamo André, sou <em>brasileiro, moro em Vitória da Conquista, Bahia,</em> tenho 41 anos, sou ciclista amador, aventureiro, e adoro passar o tempo com a família, andar de bike com minhas filhas, assistir filmes, e codar.</p>
+                    <p>Há 20 anos trabalho como gerente comercial na Delicatessen Dinani, empresa do segmento de gêneros alimentícios, que funciona como indústria e comércio varejista de produtos de fabricação própria e terceiros. </p>
+                    <p>Atualmente, estou cursando o curso de Programação e Desenvolvimento Web Full Stack na Trybe e o curso de Análise e Desenvolvimento 
+                    de sistemas na UNIT.</p>
+                    <p>Nos últimos meses, tenho me dedicado a aprender programação, feito alguns cursos online, e atualmente estou focado em fazer uma transição de carreira, me tornar Desenvolvedor de Softwares.</p>
+                    <p>Sou um novato na aréa de desenvolvimento de softwares, mas sou <strong>focado, determinado e aprendo rápido.</strong></p>
+                </div>
+            </div>  
+    </header>
+    <main>
+        <div id="curriculo">
+            <div id="especialidade">
+                <ul >
+                    <h2 id="h2espe" >Áreas de Especialidades</h2>
+                    <br>
+                    <p>Conhecimentos básicos em programação e Front End</p>
+                    <br>
+                    <li>Noçoes básicas com certificação em linguagens de programação:
+                        <dd>- Java</dd>
+                        <dd>- JavaScript</dd>
+                        <dd>- Python</dd>
+                    </li>
+                    <li>Noçoes básicas com certificação em banco de dados:
+                        <dd>- MySql</dd>
+                        <dd>- Firebase</dd>
+                    </li>
+                    <li>Noçoes básicas com certificação em desenvolvimento Web:
+                        <dd>- Html</dd>
+                        <dd>- Css</dd>
+                        <dd>- BootStrap</dd>
+                    </li>
+                </ul>    
             </div>
-        </div> -->   
+            <div id="logos">
+                <ul id="listalogos">
+                    <li><img src="/img/java.png" alt="java" id="img1"></li>
+                    <li><img src="/img/js.png" alt="javascript" id="img2"></li>
+                    <li><img src="/img/python.png" alt="python"></li>
+                </ul>
+                <ul id="logos2">
+                    <li><img src="/img/mysql.png" alt="MySql"></li>
+                    <li><img src="/img/firebase2.png" alt="firebase"></li>
+                    
+                </ul>
+                <ul id="logos3">
+                    <li><img src="/img/html-5.png" alt="html"></li>
+                    <li><img src="/img/css.png" alt="css"></li>
+                    <li><img src="/img/bootstrap.png" alt="bootstrap"></li>
+                </ul>
+                     
+            </div>
+        </div>
 
+        <div id="profissional">
+            <div id="hist-prof">
+                <h2>Histórico Profissional</h2>
+                <br>
+                <p>Delicatessen Dinani | Dezembro de 2001 - Atualmente</p>
+                <p>Sócio-Gerente</p>
+                <br>
+                <ul>
+                    <li>Gerenciamento de equipe</li>
+                    <li>Responsável por compras</li>
+                    <li>Responsável por organização financeira</li>
+                </ul>
+            </div>
+            <div id="hist-img"  >
+                <img src="/img/software-engineer.png">
+            </div>
+        </div>
+
+        <div id="academico">
+            
+            <div id="hist-acad">
+                <h2>Histórico Acadêmico</h2>
+                <br>
+                <p><Strong>Universidade Tiradentes</Strong></p>
+                <ul>
+                    <li>Estudante do Curso de Análise e Desenvolvimento de Sistemas</li>
+                    <li>Julho 2021 - Previsão de Término - Dezembro 2023</li>
+                </ul>
+                <br>
+                <p><Strong>Trybe</Strong></p>
+                <ul>
+                    <li>Escola de Tenologia em Desenvolvimento Web - Full Stack</li>
+                    <li>Novembro 2021 - previsão de término Novembro 2022</li>
+                </ul>
+                <br>
+                <p><Strong>Faculdade Juvêncio Terra</Strong></p>  
+                <ul>
+                    <li>Graduação em Administração de Empresas</li>
+                    <li>Janeiro 20011 - Dezembro de 2001</li>
+                </ul>
+                <br>      
+
+            </div>
+            <div id="logo-acad">
+                <img src="/img/marca-unit.png">
+            </div>
+            <div id="trybe">
+                <img src="/img/trybe.png.png" width="200px">
+            </div>
+        </div>            
+
+    </main>
+    
 
                 
                 
