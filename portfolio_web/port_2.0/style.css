@@ -98,6 +98,7 @@
     padding: 10px;
     max-width: 1500px;
     left: 280px;
+    width: 700px;
     
 }
 
@@ -106,14 +107,23 @@
 }
 
 #foto{
-    margin-top: 40px;
+    margin-top: 60px;
     width: 250px;
     float: left;
     margin-left: 10px;
     
 }
 
+#foto2{
+    width: 350px;
+    float:right;
+    margin-top: 100px;
+    margin-right: 10px;
+
+}
+
 h1{
+    text-align: center;
     font-size: 60px;
     text-transform: uppercase;
 }
@@ -335,7 +345,6 @@ main{
 /*portifolio apps*/
 
 #videos{
-    background-color: #94D2BD;
     height: 450px;
 
 }
@@ -352,23 +361,44 @@ main{
 
 }
 
+/*portifolio sites */
 
+#imagens{
+    background-color: #94D2BD;
+    height: 400px;
 
+}
+#portfolio {
+    padding: 20px;
+}
 
+#portfolio li{
+    margin-left: 20px;
+    list-style: none;
+    display: inline-block;
 
+}
 
+/*footer - contato */
 
-
-
-
-
-
-
-
-/* footer - contatos*/
 
 #menu-foot{
-    background-color: darkturquoise;
+    background-color: #94D2BD;
+}
+
+#menu-foot {
+    padding: 20px;
+}
+
+#cont-foot li{
+    position: relative;
+    margin-left: 20px;
+    list-style: none;
+    display: inline-block;
+    left:400px;
+    text-decoration: none;
+    
+
 }
 
 
