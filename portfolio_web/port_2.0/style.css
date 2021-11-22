@@ -192,8 +192,7 @@ main{
     height: 500px;
     width: 100%;
     position: absolute;
-    
-    z-index: 20;
+    z-index: 0;
     top: 500px;
     
 }
@@ -277,15 +276,14 @@ main{
 
 #academico{
     background-color: #94D2BD;
-    
+    height: 450px;
 }
 
 #hist-acad{
     position: relative;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 50px;
-    padding: 10px;
-
+    padding: 20px;
 
 }
 
@@ -293,15 +291,71 @@ main{
     position: relative;
     display: float;
     left: 1000px;
-    top: -350px
+    bottom:300px ;
+    
 }
 
 #trybe{
     position: relative;
     display: float;
     left: 1000px;
-    top: -250px
+    bottom: 280px;
 }
+
+/* Certificados */
+
+#certificados {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+
+}
+
+#certificados ul li {
+    margin-top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#certificados ul li :link {
+        text-decoration: none;
+        color: black;
+}
+#certificados ul li :visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+#certificados ul li:hover{
+    
+    background-color: #DAF0EE;
+}
+
+/*portifolio apps*/
+
+#videos{
+    background-color: #94D2BD;
+    height: 450px;
+
+}
+#port-videos {
+    padding: 20px;
+}
+
+#port-videos li{
+    margin-top: 20px;
+    margin-left: 50px;
+    list-style: none;
+    
+    display: inline-block;
+
+}
+
+
+
+
+
 
 
 
