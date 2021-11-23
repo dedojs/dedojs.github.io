@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*div{
+    border: 2px solid black;
+}*/
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+
+
+#logo{
+    left: 15px;
+    position: relative;
+    top: 5px;
+}
+
+#menu-h li{
+    margin-left: 20px;
+}
+
+#menu-h ul{
+    width: 1900px;
+    position: fixed;
+    z-index: 6;
+    list-style:none;
+    padding: 0;
+    background-color: #94D2BD;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+       
+}
+
+#menu-h ul li{
+    display: inline;
+    float: left;
+    position: relative;
+   
+}
+
+#menu-h ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .3s ;
+}
+
+#menu-h ul li a:hover{
+    background-color: #0A9396;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+/*Sub Menu*/
+
+#menu-h ul ul{
+    list-style-type:none;
+    padding: 0;
+    display:none;
+    position: absolute;
+    width: 200px;
+}
+
+#menu-h ul li:hover > ul{
+    display:block;
+    opacity: .95;
+    
+}
+
+#menu-h ul ul li{
+    margin-left: 0;
+}
+
+/*----------------------*/
+
+#home{
+    background-color: #005F73;
+    display: inline-block;
+}
+
+
+
+#descricao{
+    display: inline-flex;
+    
+}
+
+#desc{
+    font-size: 16px;
+    position: absolute;
+    margin-top: 10px;
+    padding: 10px;
+    left: 400px;
+    width: 1000px;
+    
+}
+
+#parte1{
+    margin-top: 50px;
+}
+
+#foto{
+    margin-top: 20px;
+    width: 250px;
+    float: left;
+    margin-left: 20px;
+    box-shadow: 2px 5px 5px 5px grey;
+    
+}
+
+#foto2{
+    width: 350px;
+    float:right;
+    margin-top: 90px;
+    margin-right: 20px;
+    box-shadow: 2px 5px 5px 5px grey;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+
+/*Menu hamburguer
+.checkbox-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* alterar display depois 
+.checkbox{
+    height: 100px;
+    width:100px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: none; 
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9999;
+    transition: 400ms ease-in-out 0s;
+}
+
+.checkbox .trace{
+    width: 50px;
+    height:2px ;
+    background-color: #0A9396;
+    position: absolute;
+    border-radius: 4px ;
+    transition: 0.5s ease-in-out;
+}
+
+.checkbox .trace:nth-child(1){
+    top: 15px;
+    transform: rotate(0);
+    background-color: blanchedalmond;
+}
+
+.checkbox .trace:nth-child(2){
+    top: 35px;
+    transform: rotate(0);
+    background-color: blanchedalmond;
+}
+
+.checkbox .trace:nth-child(3){
+    top: 55px;
+    transform: rotate(0);
+    background-color: blanchedalmond;
+}
+
+#toggle{
+    display: none;
+}
+
+/* Menu hamburguer
+
+.menu{
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    background-color: transparent;
+    height: 4px;
+    width: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+    z-index: 1;
+    transition: 400ms ease-in-out 0s;
+
+}*/
+
+/* Main - conteudo - */
+
+main{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 500px;
+    
+}
+
+/* Especialidades */
+
+#curriculo{
+    background-color: #94D2BD;
+   
+}
+
+#h2espe{
+    margin-top:10px
+}
+
+#especialidade{
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#logos{
+    position: absolute;
+    display: inline-block;
+    padding: 40px;
+    margin-left: 20px;
+    right: 260px;
+    top:0px;
+   z-index: 2;
+}
+
+#listalogos{
+    list-style-type: none;
+    display:inline-block;
+    padding: 30px;
+    line-height: 120px;
+    
+}
+
+#logos2{
+    list-style-type: none;
+    display:inline-block;
+    padding: 30px;
+    line-height: 120px;
+}
+#logos3{
+    list-style-type: none;
+    display:inline-block;
+    padding: 30px;
+    line-height: 120px;
+}
+
+/* Historico profissional*/
+
+#profissional{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+  
+}
+
+
+#hist-prof{
+    display: inline-block;
+    
+}
+
+#hist-img{
+    display: inline-block;
+    left: 1000px;
+    top: 50px;
+    position: absolute;
+    z-index: 6;
+}
+
+/* historico acadêmico */
+
+#academico{
+    background-color: #94D2BD;
+    height: 450px;
+}
+
+#hist-acad{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 20px;
+    list-style: none;
+    
+
+}
+/*
+#logo-acad{
+    position: relative;
+    display: float;
+    left: 50px;
+    bottom:300px ;
+    width: 100px;
+    list-style-type: none;
+    
+}*/
+
+.logos-acad{
+    position: relative;
+    left: 50px;
+    bottom: 300px;
+    width: 100px;
+    list-style-type: none;
+}
+
+/* Certificados */
+
+#certificados {
+    position: relative;
+    bottom: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    
+
+}
+
+#certificados ul li {
+    
+    margin-top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#certificados ul li :link {
+        text-decoration: none;
+        color: black;
+}
+#certificados ul li :visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+#certificados ul li:hover{
+    
+    background-color: #DAF0EE;
+}
+
+/*portifolio apps*/
+
+#videos{
+    height: 450px;
+
+}
+#port-videos {
+    padding: 20px;
+}
+
+#port-videos li{
+    margin-top: 20px;
+    margin-left: 50px;
+    list-style: none;
+    
+    display: inline-block;
+
+}
+
+/*portifolio sites */
+
+#imagens{
+    background-color: #94D2BD;
+    height: 400px;
+
+}
+#portfolio {
+    padding: 20px;
+}
+
+#portfolio li{
+    margin-left: 20px;
+    list-style: none;
+    display: inline-block;
+
+}
+
+/*footer - contato */
+
+
+#menu-foot{
+    background-color: #94D2BD;
+}
+
+#menu-foot {
+    padding: 20px;
+}
+
+#cont-foot li{
+    position: relative;
+    margin-left: 20px;
+    list-style: none;
+    display: inline-block;
+    left:751px;
+    text-decoration: none;
+    
+
+}
+
+
+
+
+
+
+
+
