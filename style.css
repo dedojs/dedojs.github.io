@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-:root{
-    --cor-fundo:#94D2BD;
-    --cor-hover:##0A9396;
-}
+
 
 
 *{
@@ -10,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+
     
 }
 
@@ -25,7 +23,7 @@
 }
 
 #menu-h ul{
-    width: 100%;
+    width: 1900px;
     position: fixed;
     z-index: 6;
     list-style:none;
@@ -98,9 +96,8 @@
     position: absolute;
     margin-top: 10px;
     padding: 10px;
-    max-width: 1500px;
-    left: 280px;
-    width: 700px;
+    left: 400px;
+    width: 1000px;
     
 }
 
@@ -109,18 +106,20 @@
 }
 
 #foto{
-    margin-top: 60px;
+    margin-top: 20px;
     width: 250px;
     float: left;
-    margin-left: 10px;
+    margin-left: 20px;
+    box-shadow: 2px 5px 5px 5px grey;
     
 }
 
 #foto2{
     width: 350px;
     float:right;
-    margin-top: 100px;
-    margin-right: 10px;
+    margin-top: 90px;
+    margin-right: 20px;
+    box-shadow: 2px 5px 5px 5px grey;
 
 }
 
@@ -130,14 +129,15 @@ h1{
     text-transform: uppercase;
 }
 
-/*Menu hamburguer*/
+
+/*Menu hamburguer
 .checkbox-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* alterar display depois */
+/* alterar display depois 
 .checkbox{
     height: 100px;
     width:100px;
@@ -182,7 +182,7 @@ h1{
     display: none;
 }
 
-/* Menu hamburguer*/
+/* Menu hamburguer
 
 .menu{
     position: absolute;
@@ -196,7 +196,7 @@ h1{
     z-index: 1;
     transition: 400ms ease-in-out 0s;
 
-}
+}*/
 
 /* Main - conteudo - */
 
@@ -296,34 +296,43 @@ main{
     margin-top: 10px;
     margin-left: 50px;
     padding: 20px;
+    list-style: none;
+    
 
 }
-
+/*
 #logo-acad{
     position: relative;
     display: float;
-    left: 1000px;
+    left: 50px;
     bottom:300px ;
+    width: 100px;
+    list-style-type: none;
     
-}
+}*/
 
-#trybe{
+.logos-acad{
     position: relative;
-    display: float;
-    left: 1000px;
-    bottom: 280px;
+    left: 50px;
+    bottom: 300px;
+    width: 100px;
+    list-style-type: none;
 }
 
 /* Certificados */
 
 #certificados {
+    position: relative;
+    bottom: 100px;
     margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 20px; 
+    
 
 }
 
 #certificados ul li {
+    
     margin-top: 10px;
     list-style-type: none;
     text-decoration: none;
@@ -397,7 +406,7 @@ main{
     margin-left: 20px;
     list-style: none;
     display: inline-block;
-    left:400px;
+    left:751px;
     text-decoration: none;
     
 
